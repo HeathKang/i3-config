@@ -171,13 +171,13 @@ bar {
 
 }
 # Desktop Backgroud
-exec --no-startup-id feh --bg-scale "$HOME/Pictures/art-background.jpg"
+exec --no-startup-id feh --bg-scale "$HOME/.config/i3/Pictures/art-background.jpg"
 
 # Terminal Background tansparent
 exec --no-startup-id compton -bcCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D 2 -m 0.88
 
 # Lock Screen
-bindsym $mod+l exec --no-startup-id i3lock -i "$HOME/Pictures/cyberpunk2077.png"
+bindsym $mod+l exec --no-startup-id i3lock -i "$HOME/.config/i3/Pictures/cyberpunk2077.png"
 
 # File manager
 bindsym $mod+e exec --no-startup-id thunar
